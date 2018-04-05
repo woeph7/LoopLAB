@@ -46,7 +46,39 @@ body{
   }
 }
 
+#explore-section{
+  .fa{
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius:  5px;
+    font-size: $landing-icon-size
+  }
+}
 
+#create-section{
+  .fa{
+    color: $primary-color;
+    background: #fff;
+    padding: 4px;
+    border-radius:  5px;
+    font-size: $landing-icon-size
+  }
+}
+
+#share-section{
+  .fa{
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius:  5px;
+    font-size: $landing-icon-size
+  }
+}
+
+.modal{
+  color: #333;
+}
 
 @media(max-width:576px){
   nav .container{
